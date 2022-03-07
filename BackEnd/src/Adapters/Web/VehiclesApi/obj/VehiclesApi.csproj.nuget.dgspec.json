@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/gabrielvms/Documents/GitHub/DotNetVolvoTest/src/Adapters/Web/VehiclesApi/VehiclesApi.csproj": {}
+    "/home/gabrielvms/Documents/GitHub/VolvoTest/BackEnd/src/Adapters/Web/VehiclesApi/VehiclesApi.csproj": {}
   },
   "projects": {
-    "/home/gabrielvms/Documents/GitHub/DotNetVolvoTest/src/Adapters/Infrastructure/Infrastructure.csproj": {
+    "/home/gabrielvms/Documents/GitHub/VolvoTest/BackEnd/src/Adapters/Infrastructure/Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/gabrielvms/Documents/GitHub/DotNetVolvoTest/src/Adapters/Infrastructure/Infrastructure.csproj",
+        "projectUniqueName": "/home/gabrielvms/Documents/GitHub/VolvoTest/BackEnd/src/Adapters/Infrastructure/Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "/home/gabrielvms/Documents/GitHub/DotNetVolvoTest/src/Adapters/Infrastructure/Infrastructure.csproj",
+        "projectPath": "/home/gabrielvms/Documents/GitHub/VolvoTest/BackEnd/src/Adapters/Infrastructure/Infrastructure.csproj",
         "packagesPath": "/home/gabrielvms/.nuget/packages/",
-        "outputPath": "/home/gabrielvms/Documents/GitHub/DotNetVolvoTest/src/Adapters/Infrastructure/obj/",
+        "outputPath": "/home/gabrielvms/Documents/GitHub/VolvoTest/BackEnd/src/Adapters/Infrastructure/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/gabrielvms/.nuget/NuGet/NuGet.Config"
@@ -26,8 +26,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/home/gabrielvms/Documents/GitHub/DotNetVolvoTest/src/Core/Core.csproj": {
-                "projectPath": "/home/gabrielvms/Documents/GitHub/DotNetVolvoTest/src/Core/Core.csproj"
+              "/home/gabrielvms/Documents/GitHub/VolvoTest/BackEnd/src/Core/Core.csproj": {
+                "projectPath": "/home/gabrielvms/Documents/GitHub/VolvoTest/BackEnd/src/Core/Core.csproj"
               }
             }
           }
@@ -60,14 +60,14 @@
         }
       }
     },
-    "/home/gabrielvms/Documents/GitHub/DotNetVolvoTest/src/Adapters/Web/VehiclesApi/VehiclesApi.csproj": {
+    "/home/gabrielvms/Documents/GitHub/VolvoTest/BackEnd/src/Adapters/Web/VehiclesApi/VehiclesApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/gabrielvms/Documents/GitHub/DotNetVolvoTest/src/Adapters/Web/VehiclesApi/VehiclesApi.csproj",
+        "projectUniqueName": "/home/gabrielvms/Documents/GitHub/VolvoTest/BackEnd/src/Adapters/Web/VehiclesApi/VehiclesApi.csproj",
         "projectName": "VehiclesApi",
-        "projectPath": "/home/gabrielvms/Documents/GitHub/DotNetVolvoTest/src/Adapters/Web/VehiclesApi/VehiclesApi.csproj",
+        "projectPath": "/home/gabrielvms/Documents/GitHub/VolvoTest/BackEnd/src/Adapters/Web/VehiclesApi/VehiclesApi.csproj",
         "packagesPath": "/home/gabrielvms/.nuget/packages/",
-        "outputPath": "/home/gabrielvms/Documents/GitHub/DotNetVolvoTest/src/Adapters/Web/VehiclesApi/obj/",
+        "outputPath": "/home/gabrielvms/Documents/GitHub/VolvoTest/BackEnd/src/Adapters/Web/VehiclesApi/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/gabrielvms/.nuget/NuGet/NuGet.Config"
@@ -82,11 +82,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/home/gabrielvms/Documents/GitHub/DotNetVolvoTest/src/Adapters/Infrastructure/Infrastructure.csproj": {
-                "projectPath": "/home/gabrielvms/Documents/GitHub/DotNetVolvoTest/src/Adapters/Infrastructure/Infrastructure.csproj"
+              "/home/gabrielvms/Documents/GitHub/VolvoTest/BackEnd/src/Adapters/Infrastructure/Infrastructure.csproj": {
+                "projectPath": "/home/gabrielvms/Documents/GitHub/VolvoTest/BackEnd/src/Adapters/Infrastructure/Infrastructure.csproj"
               },
-              "/home/gabrielvms/Documents/GitHub/DotNetVolvoTest/src/Core/Core.csproj": {
-                "projectPath": "/home/gabrielvms/Documents/GitHub/DotNetVolvoTest/src/Core/Core.csproj"
+              "/home/gabrielvms/Documents/GitHub/VolvoTest/BackEnd/src/Core/Core.csproj": {
+                "projectPath": "/home/gabrielvms/Documents/GitHub/VolvoTest/BackEnd/src/Core/Core.csproj"
               }
             }
           }
@@ -128,14 +128,14 @@
         }
       }
     },
-    "/home/gabrielvms/Documents/GitHub/DotNetVolvoTest/src/Core/Core.csproj": {
+    "/home/gabrielvms/Documents/GitHub/VolvoTest/BackEnd/src/Core/Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/gabrielvms/Documents/GitHub/DotNetVolvoTest/src/Core/Core.csproj",
+        "projectUniqueName": "/home/gabrielvms/Documents/GitHub/VolvoTest/BackEnd/src/Core/Core.csproj",
         "projectName": "Core",
-        "projectPath": "/home/gabrielvms/Documents/GitHub/DotNetVolvoTest/src/Core/Core.csproj",
+        "projectPath": "/home/gabrielvms/Documents/GitHub/VolvoTest/BackEnd/src/Core/Core.csproj",
         "packagesPath": "/home/gabrielvms/.nuget/packages/",
-        "outputPath": "/home/gabrielvms/Documents/GitHub/DotNetVolvoTest/src/Core/obj/",
+        "outputPath": "/home/gabrielvms/Documents/GitHub/VolvoTest/BackEnd/src/Core/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/gabrielvms/.nuget/NuGet/NuGet.Config"

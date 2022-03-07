@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/gabrielvms/Documents/GitHub/DotNetVolvoTest/src/Core/Core.csproj",
+      "projectUniqueName": "/home/gabrielvms/Documents/GitHub/VolvoTest/BackEnd/src/Core/Core.csproj",
       "projectName": "Core",
-      "projectPath": "/home/gabrielvms/Documents/GitHub/DotNetVolvoTest/src/Core/Core.csproj",
+      "projectPath": "/home/gabrielvms/Documents/GitHub/VolvoTest/BackEnd/src/Core/Core.csproj",
       "packagesPath": "/home/gabrielvms/.nuget/packages/",
-      "outputPath": "/home/gabrielvms/Documents/GitHub/DotNetVolvoTest/src/Core/obj/",
+      "outputPath": "/home/gabrielvms/Documents/GitHub/VolvoTest/BackEnd/src/Core/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/gabrielvms/.nuget/NuGet/NuGet.Config"

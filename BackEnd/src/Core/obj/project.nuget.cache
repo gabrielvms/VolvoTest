@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ISrN+SW1MHbbV5NXhGM3nw3i47Z4BbdgHrSshCEzZgE4Wj8+MMYBtQ0713SdkqBWXWlz3PTdaaDLCeC8nSky5w==",
+  "dgSpecHash": "w2CsNoCHOUM05lQMg83p7Q//WFJKpqygQEj6n+QFI3OgoS2dGH/W71oxWoH0BZF2zjtVdxQeyKbYF9CUQSRt1g==",
   "success": true,
-  "projectFilePath": "/home/gabrielvms/Documents/GitHub/DotNetVolvoTest/src/Core/Core.csproj",
+  "projectFilePath": "/home/gabrielvms/Documents/GitHub/VolvoTest/BackEnd/src/Core/Core.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

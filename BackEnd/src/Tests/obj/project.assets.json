@@ -6885,11 +6885,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/gabrielvms/Documents/GitHub/DotNetVolvoTest/src/Tests/Tests.csproj",
+      "projectUniqueName": "/home/gabrielvms/Documents/GitHub/VolvoTest/BackEnd/src/Tests/Tests.csproj",
       "projectName": "Tests",
-      "projectPath": "/home/gabrielvms/Documents/GitHub/DotNetVolvoTest/src/Tests/Tests.csproj",
+      "projectPath": "/home/gabrielvms/Documents/GitHub/VolvoTest/BackEnd/src/Tests/Tests.csproj",
       "packagesPath": "/home/gabrielvms/.nuget/packages/",
-      "outputPath": "/home/gabrielvms/Documents/GitHub/DotNetVolvoTest/src/Tests/obj/",
+      "outputPath": "/home/gabrielvms/Documents/GitHub/VolvoTest/BackEnd/src/Tests/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/gabrielvms/.nuget/NuGet/NuGet.Config"
@@ -6904,14 +6904,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "/home/gabrielvms/Documents/GitHub/DotNetVolvoTest/src/Adapters/Infrastructure/Infrastructure.csproj": {
-              "projectPath": "/home/gabrielvms/Documents/GitHub/DotNetVolvoTest/src/Adapters/Infrastructure/Infrastructure.csproj"
+            "/home/gabrielvms/Documents/GitHub/VolvoTest/BackEnd/src/Adapters/Infrastructure/Infrastructure.csproj": {
+              "projectPath": "/home/gabrielvms/Documents/GitHub/VolvoTest/BackEnd/src/Adapters/Infrastructure/Infrastructure.csproj"
             },
-            "/home/gabrielvms/Documents/GitHub/DotNetVolvoTest/src/Adapters/Web/VehiclesApi/VehiclesApi.csproj": {
-              "projectPath": "/home/gabrielvms/Documents/GitHub/DotNetVolvoTest/src/Adapters/Web/VehiclesApi/VehiclesApi.csproj"
+            "/home/gabrielvms/Documents/GitHub/VolvoTest/BackEnd/src/Adapters/Web/VehiclesApi/VehiclesApi.csproj": {
+              "projectPath": "/home/gabrielvms/Documents/GitHub/VolvoTest/BackEnd/src/Adapters/Web/VehiclesApi/VehiclesApi.csproj"
             },
-            "/home/gabrielvms/Documents/GitHub/DotNetVolvoTest/src/Core/Core.csproj": {
-              "projectPath": "/home/gabrielvms/Documents/GitHub/DotNetVolvoTest/src/Core/Core.csproj"
+            "/home/gabrielvms/Documents/GitHub/VolvoTest/BackEnd/src/Core/Core.csproj": {
+              "projectPath": "/home/gabrielvms/Documents/GitHub/VolvoTest/BackEnd/src/Core/Core.csproj"
             }
           }
         }
