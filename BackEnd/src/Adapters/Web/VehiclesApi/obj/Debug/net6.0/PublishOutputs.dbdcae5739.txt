@@ -1,0 +1,15 @@
+/home/gabrielvms/Documents/GitHub/DotNetVolvoTest/src/Adapters/Web/VehiclesApi/bin/Debug/net6.0/publish/VehiclesApi
+/home/gabrielvms/Documents/GitHub/DotNetVolvoTest/src/Adapters/Web/VehiclesApi/bin/Debug/net6.0/publish/appsettings.Development.json
+/home/gabrielvms/Documents/GitHub/DotNetVolvoTest/src/Adapters/Web/VehiclesApi/bin/Debug/net6.0/publish/appsettings.json
+/home/gabrielvms/Documents/GitHub/DotNetVolvoTest/src/Adapters/Web/VehiclesApi/bin/Debug/net6.0/publish/VehiclesApi.dll
+/home/gabrielvms/Documents/GitHub/DotNetVolvoTest/src/Adapters/Web/VehiclesApi/bin/Debug/net6.0/publish/VehiclesApi.deps.json
+/home/gabrielvms/Documents/GitHub/DotNetVolvoTest/src/Adapters/Web/VehiclesApi/bin/Debug/net6.0/publish/VehiclesApi.runtimeconfig.json
+/home/gabrielvms/Documents/GitHub/DotNetVolvoTest/src/Adapters/Web/VehiclesApi/bin/Debug/net6.0/publish/VehiclesApi.pdb
+/home/gabrielvms/Documents/GitHub/DotNetVolvoTest/src/Adapters/Web/VehiclesApi/bin/Debug/net6.0/publish/Microsoft.OpenApi.dll
+/home/gabrielvms/Documents/GitHub/DotNetVolvoTest/src/Adapters/Web/VehiclesApi/bin/Debug/net6.0/publish/Swashbuckle.AspNetCore.Swagger.dll
+/home/gabrielvms/Documents/GitHub/DotNetVolvoTest/src/Adapters/Web/VehiclesApi/bin/Debug/net6.0/publish/Swashbuckle.AspNetCore.SwaggerGen.dll
+/home/gabrielvms/Documents/GitHub/DotNetVolvoTest/src/Adapters/Web/VehiclesApi/bin/Debug/net6.0/publish/Swashbuckle.AspNetCore.SwaggerUI.dll
+/home/gabrielvms/Documents/GitHub/DotNetVolvoTest/src/Adapters/Web/VehiclesApi/bin/Debug/net6.0/publish/Core.dll
+/home/gabrielvms/Documents/GitHub/DotNetVolvoTest/src/Adapters/Web/VehiclesApi/bin/Debug/net6.0/publish/Infrastructure.dll
+/home/gabrielvms/Documents/GitHub/DotNetVolvoTest/src/Adapters/Web/VehiclesApi/bin/Debug/net6.0/publish/Core.pdb
+/home/gabrielvms/Documents/GitHub/DotNetVolvoTest/src/Adapters/Web/VehiclesApi/bin/Debug/net6.0/publish/Infrastructure.pdb

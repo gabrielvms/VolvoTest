@@ -1,0 +1,45 @@
+<h1 style="margin: 0 0.5rem">Remove Vehicle</h1>
+<mat-divider></mat-divider>
+
+<form class="example-container" [formGroup]="removeForm">
+  <mat-form-field appearance="standard">
+    <mat-label>Chassis Series</mat-label>
+    <input
+      matInput
+      type="text"
+      placeholder="volvo"
+      formControlName="chassisSeries"
+      [errorStateMatcher]="matcher"
+      required
+    />
+    <mat-error *ngIf="removeForm.get('chassisSeries')?.hasError('required')">
+      Chassis series is <strong>REQUIRED</strong>
+    </mat-error>
+  </mat-form-field>
+
+  <mat-form-field appearance="standard">
+    <mat-label>Chassis Number</mat-label>
+    <input
+      matInput
+      type="text"
+      placeholder="0001"
+      formControlName="chassisNumber"
+      [errorStateMatcher]="matcher"
+      required
+    />
+    <mat-error
+      *ngIf="
+        !removeForm.get('chassisNumber')?.hasError('required') &&
+        !removeForm.get('chassisNumber')?.hasError('number')
+      "
+    >
+      Chassis number should be a <strong>POSITIVE NUMBER</strong>
+    </mat-error>
+    <mat-error *ngIf="removeForm.get('chassisNumber')?.hasError('required')">
+      Chassis number is <strong>REQUIRED</strong>
+    </mat-error>
+  </mat-form-field>
+  <button mat-raised-button color="warn" [disabled]="removeForm.invalid" (click)="removeVehicle()">
+    <mat-icon>delete</mat-icon>
+  </button>
+</form>

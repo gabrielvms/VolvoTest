@@ -1,0 +1,60 @@
+<h1 style="margin: 0 0.5rem">Edit Vehicle</h1>
+<mat-divider></mat-divider>
+
+<form class="example-container" [formGroup]="editForm">
+  <mat-form-field appearance="standard">
+    <mat-label>Chassis Series</mat-label>
+    <input
+      matInput
+      type="text"
+      placeholder="volvo"
+      formControlName="chassisSeries"
+      [errorStateMatcher]="matcher"
+      required
+    />
+    <mat-error *ngIf="editForm.get('chassisSeries')?.hasError('required')">
+      Chassis series is <strong>REQUIRED</strong>
+    </mat-error>
+  </mat-form-field>
+
+  <mat-form-field appearance="standard">
+    <mat-label>Chassis Number</mat-label>
+    <input
+      matInput
+      type="text"
+      placeholder="0001"
+      formControlName="chassisNumber"
+      [errorStateMatcher]="matcher"
+      required
+    />
+    <mat-error
+      *ngIf="
+        !editForm.get('chassisNumber')?.hasError('required') &&
+        !editForm.get('chassisNumber')?.hasError('number')
+      "
+    >
+      Chassis number should be a <strong>POSITIVE NUMBER</strong>
+    </mat-error>
+    <mat-error *ngIf="editForm.get('chassisNumber')?.hasError('required')">
+      Chassis number is <strong>REQUIRED</strong>
+    </mat-error>
+  </mat-form-field>
+
+  <mat-form-field appearance="standard">
+    <mat-label>Color</mat-label>
+    <input
+      matInput
+      placeholder="blue"
+      formControlName="color"
+      [errorStateMatcher]="matcher"
+      required
+    />
+    <mat-error *ngIf="editForm.get('color')?.hasError('required')">
+      Color is <strong>REQUIRED</strong>
+    </mat-error>
+  </mat-form-field>
+
+  <button mat-raised-button color="primary" [disabled]="editForm.invalid" (click)="editVehicle()">
+    <mat-icon>edit</mat-icon>
+  </button>
+</form>

@@ -1,0 +1,16 @@
+<mat-card-title>Confirm Update</mat-card-title>
+<mat-divider style="margin-bottom: 1rem;"></mat-divider>
+<mat-card-content>
+  Series: {{ data.vehicle.chassisId.chassisSeries }} <br>
+  Number: {{ data.vehicle.chassisId.chassisNumber }} <br>
+  Type: {{ data.vehicle.type }} <br>
+  No. of Passengers: {{ data.vehicle.numberOfPassengers }} <br>
+  Color: {{ data.vehicle.color }} <br>
+  New Color: {{data.newColor}} <br>
+</mat-card-content>
+<div mat-dialog-actions>
+  <div style="margin: auto;">
+    <button mat-flat-button (click)="closeDialog()">Close</button>
+    <button mat-flat-button color="primary" [mat-dialog-close]="data">Update</button>
+  </div>
+</div>

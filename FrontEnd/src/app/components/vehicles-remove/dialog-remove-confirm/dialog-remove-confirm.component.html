@@ -1,0 +1,15 @@
+<mat-card-title>Confirm Delete</mat-card-title>
+<mat-divider style="margin-bottom: 1rem;"></mat-divider>
+<mat-card-content>
+  Series: {{ vehicle.chassisId.chassisSeries }} <br>
+  Number: {{ vehicle.chassisId.chassisNumber }} <br>
+  Type: {{ vehicle.type }} <br>
+  No. of Passengers: {{ vehicle.numberOfPassengers }} <br>
+  Color: {{ vehicle.color }} <br>
+</mat-card-content>
+<div mat-dialog-actions>
+  <div style="margin: auto;">
+    <button mat-flat-button (click)="closeDialog()">Close</button>
+    <button mat-flat-button color="warn" [mat-dialog-close]="vehicle">Delete</button>
+  </div>
+</div>

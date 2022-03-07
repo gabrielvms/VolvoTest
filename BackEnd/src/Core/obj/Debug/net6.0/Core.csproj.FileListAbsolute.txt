@@ -1,0 +1,12 @@
+/home/gabrielvms/Documents/GitHub/DotNetVolvoTest/src/Core/bin/Debug/net6.0/Core.deps.json
+/home/gabrielvms/Documents/GitHub/DotNetVolvoTest/src/Core/bin/Debug/net6.0/Core.dll
+/home/gabrielvms/Documents/GitHub/DotNetVolvoTest/src/Core/bin/Debug/net6.0/Core.pdb
+/home/gabrielvms/Documents/GitHub/DotNetVolvoTest/src/Core/obj/Debug/net6.0/Core.csproj.AssemblyReference.cache
+/home/gabrielvms/Documents/GitHub/DotNetVolvoTest/src/Core/obj/Debug/net6.0/Core.GeneratedMSBuildEditorConfig.editorconfig
+/home/gabrielvms/Documents/GitHub/DotNetVolvoTest/src/Core/obj/Debug/net6.0/Core.AssemblyInfoInputs.cache
+/home/gabrielvms/Documents/GitHub/DotNetVolvoTest/src/Core/obj/Debug/net6.0/Core.AssemblyInfo.cs
+/home/gabrielvms/Documents/GitHub/DotNetVolvoTest/src/Core/obj/Debug/net6.0/Core.csproj.CoreCompileInputs.cache
+/home/gabrielvms/Documents/GitHub/DotNetVolvoTest/src/Core/obj/Debug/net6.0/Core.dll
+/home/gabrielvms/Documents/GitHub/DotNetVolvoTest/src/Core/obj/Debug/net6.0/refint/Core.dll
+/home/gabrielvms/Documents/GitHub/DotNetVolvoTest/src/Core/obj/Debug/net6.0/Core.pdb
+/home/gabrielvms/Documents/GitHub/DotNetVolvoTest/src/Core/obj/Debug/net6.0/ref/Core.dll

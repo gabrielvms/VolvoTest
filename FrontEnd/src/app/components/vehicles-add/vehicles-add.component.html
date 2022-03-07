@@ -1,0 +1,86 @@
+<h1 style="margin: 0 0.5rem">Add Vehicle</h1>
+<mat-divider></mat-divider>
+
+<form class="example-container" [formGroup]="addForm">
+  <mat-form-field appearance="standard">
+    <mat-label>Chassis Series</mat-label>
+    <input
+      matInput
+      type="text"
+      placeholder="volvo"
+      formControlName="chassisSeries"
+      [errorStateMatcher]="matcher"
+      required
+    />
+    <mat-error *ngIf="addForm.get('chassisSeries')?.hasError('required')">
+      Chassis series is <strong>REQUIRED</strong>
+    </mat-error>
+  </mat-form-field>
+
+  <mat-form-field appearance="standard">
+    <mat-label>Chassis Number</mat-label>
+    <input
+      matInput
+      type="text"
+      placeholder="0001"
+      formControlName="chassisNumber"
+      [errorStateMatcher]="matcher"
+      required
+    />
+    <mat-error
+      *ngIf="
+        !addForm.get('chassisNumber')?.hasError('required') &&
+        !addForm.get('chassisNumber')?.hasError('number')
+      "
+    >
+      Chassis number should be a <strong>POSITIVE NUMBER</strong>
+    </mat-error>
+    <mat-error *ngIf="addForm.get('chassisNumber')?.hasError('required')">
+      Chassis number is <strong>REQUIRED</strong>
+    </mat-error>
+  </mat-form-field>
+
+  <mat-form-field appearance="standard">
+    <mat-label>Type</mat-label>
+    <mat-select
+      formControlName="type"
+      [errorStateMatcher]="matcher"
+      (selectionChange)="setPassenger()"
+      required
+    >
+      <mat-option value="Bus">Bus</mat-option>
+      <mat-option value="Truck">Truck</mat-option>
+      <mat-option value="Car">Car</mat-option>
+    </mat-select>
+    <mat-error *ngIf="addForm.get('chassisSeries')?.hasError('required')">
+      Type is <strong>REQUIRED</strong>
+    </mat-error>
+  </mat-form-field>
+
+  <mat-form-field appearance="standard">
+    <mat-label>Passengers</mat-label>
+    <input matInput formControlName="numberOfPassengers"/>
+  </mat-form-field>
+
+  <mat-form-field appearance="standard">
+    <mat-label>Color</mat-label>
+    <input
+      matInput
+      placeholder="blue"
+      formControlName="color"
+      [errorStateMatcher]="matcher"
+      required
+    />
+    <mat-error *ngIf="addForm.get('color')?.hasError('required')">
+      Color is <strong>REQUIRED</strong>
+    </mat-error>
+  </mat-form-field>
+</form>
+<button
+  mat-raised-button
+  color="primary"
+  [disabled]="addForm.invalid"
+  (click)="addVehicle()"
+>
+  Submit
+</button>

@@ -1,0 +1,3 @@
+/home/gabrielvms/Documents/GitHub/DotNetVolvoTest/src/Core/bin/Debug/net6.0/publish/Core.dll
+/home/gabrielvms/Documents/GitHub/DotNetVolvoTest/src/Core/bin/Debug/net6.0/publish/Core.deps.json
+/home/gabrielvms/Documents/GitHub/DotNetVolvoTest/src/Core/bin/Debug/net6.0/publish/Core.pdb

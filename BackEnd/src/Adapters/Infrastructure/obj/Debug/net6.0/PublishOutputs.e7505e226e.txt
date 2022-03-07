@@ -1,0 +1,5 @@
+/home/gabrielvms/Documents/GitHub/DotNetVolvoTest/src/Adapters/Infrastructure/bin/Debug/net6.0/publish/Infrastructure.dll
+/home/gabrielvms/Documents/GitHub/DotNetVolvoTest/src/Adapters/Infrastructure/bin/Debug/net6.0/publish/Infrastructure.deps.json
+/home/gabrielvms/Documents/GitHub/DotNetVolvoTest/src/Adapters/Infrastructure/bin/Debug/net6.0/publish/Infrastructure.pdb
+/home/gabrielvms/Documents/GitHub/DotNetVolvoTest/src/Adapters/Infrastructure/bin/Debug/net6.0/publish/Core.dll
+/home/gabrielvms/Documents/GitHub/DotNetVolvoTest/src/Adapters/Infrastructure/bin/Debug/net6.0/publish/Core.pdb

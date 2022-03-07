@@ -1,0 +1,31 @@
+<mat-toolbar color="default">
+  <button mat-icon-button [matMenuTriggerFor]="menu">
+    <mat-icon>menu</mat-icon>
+  </button>
+  <mat-menu #menu="matMenu">
+    <button mat-menu-item routerLink="/All-Vehicles">
+      <mat-icon>list</mat-icon>
+      <span>All Vehicles</span>
+    </button>
+    <button mat-menu-item routerLink="/Search">
+      <mat-icon>search</mat-icon>
+      <span>Search Vehicle</span>
+    </button>
+    <button mat-menu-item routerLink="/Add">
+      <mat-icon>add</mat-icon>
+      <span>Add Vehicle</span>
+    </button>
+    <button mat-menu-item routerLink="/Edit">
+      <mat-icon>edit</mat-icon>
+      <span>Edit Vehicle</span>
+    </button>
+    <button mat-menu-item routerLink="/Remove">
+      <mat-icon>remove</mat-icon>
+      <span>Remove Vehicle</span>
+    </button>
+  </mat-menu>
+  <img style="position: relative;"
+    alt="Volvo Group logo"
+    src="../../../assets/logo-volvo-group.webp"
+  />
+</mat-toolbar>
