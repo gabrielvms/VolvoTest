@@ -7,4 +7,4 @@
   - Pode-se acessar o swagger da api pelo endereço: https://localhost:7001/swagger/index.html
   - Caso queira executar os testes unitarios use o comando: dotnet test
   - Por linha de comando entre na pasta frontend e execute npm install
-  - Após o fim da instalação dos pacotes necessários, execute: ng serve para que o frontend comece a ser executado no endereço: http://localhost:4200/
+  - Após o fim da instalação dos pacotes necessários, execute: npm start para que o frontend comece a ser executado no endereço: http://localhost:4200/
